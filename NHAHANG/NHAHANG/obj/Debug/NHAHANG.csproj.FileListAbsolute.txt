@@ -1,0 +1,40 @@
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\NHAHANG.exe.config
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\NHAHANG.exe
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\NHAHANG.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.csprojResolveAssemblyReference.cache
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.Properties.Resources.resources
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.csproj.GenerateResource.Cache
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.exe
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\BUS.dll
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\DTO.dll
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\DAO.dll
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\BUS.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\DTO.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\bin\Debug\DAO.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.FormNhanVien.resources
+C:\Users\Minh Nhi\Desktop\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLMon_Loai.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\NHAHANG.exe.config
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\NHAHANG.exe
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\NHAHANG.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\BUS.dll
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\DTO.dll
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\DAO.dll
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\BUS.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\DTO.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\bin\Debug\DAO.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.csprojResolveAssemblyReference.cache
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.DSBan.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.FormNhanVien.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.PhucVu.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLBaoCao.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLHangHoa.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLMon_Loai.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.Properties.Resources.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLThietBi.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLTiec.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.csproj.GenerateResource.Cache
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.exe
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.DangNhap.resources
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\NHAHANG\obj\Debug\NHAHANG.QLNhaBep.resources

@@ -1,0 +1,14 @@
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\bin\Debug\DAO.dll
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\bin\Debug\DAO.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\bin\Debug\DTO.dll
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\bin\Debug\DTO.pdb
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\obj\Debug\DAO.dll
+C:\Users\Minh Nhi\Desktop\NHAHANG\DAO\obj\Debug\DAO.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\bin\Debug\DAO.dll
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\bin\Debug\DAO.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\bin\Debug\DTO.dll
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\bin\Debug\DTO.pdb
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\obj\Debug\DAO.dll
+C:\Users\Minh Nhi\Desktop\Bai tap dang lam\NHAHANG\DAO\obj\Debug\DAO.pdb
