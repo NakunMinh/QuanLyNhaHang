@@ -1,0 +1,2 @@
+# QuanLyNhaHang
+[QL nha hang]
