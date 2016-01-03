@@ -156,17 +156,17 @@ namespace NHAHANG
                 if (radioButtonTheoTen.Checked)
                 {
                     dataGridView1.DataSource = NhanVien_BUS.TimKiemTheoTen(txtTimKiem.Text);
-                    bingding();
+                    //bingding();
                 }
                 if(radioButtonTheoGioiTinh.Checked)
                 {
                     dataGridView1.DataSource = NhanVien_BUS.TimKiemTheoGioiTinh(txtTimKiem.Text);
-                    bingding();
+                    //bingding();
                 }
                 if (radioButtonTheoChucVu.Checked)
                 {
                     dataGridView1.DataSource = NhanVien_BUS.TimKiemTheoChucVu(txtTimKiem.Text);
-                    bingding();
+                    //bingding();
                 }
             }
         }

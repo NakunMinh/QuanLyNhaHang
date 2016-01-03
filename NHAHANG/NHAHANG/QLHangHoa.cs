@@ -64,38 +64,46 @@ namespace NHAHANG
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            //lay du lieu tu form
-            string id = txtIDThem.Text;
-            string ten = txtTenThem.Text;
-            float dongia = float.Parse(txtDonGiaThem.Text);
-            int soluong = int.Parse(txtSoLuongThem.Text);
+            string id = "";
+            string ten = "";
+            float dongia = 0;
+            int soluong = 0;
             //kiem tra
-            if (txtIDThem.Text == "" || txtTenThem.Text == "" || txtDonGiaThem.Text == "" || txtSoLuongThem.Text == "") 
-            { 
-                MessageBox.Show("Bạn chưa nhập đủ dữ liệu!"); 
+            if (txtIDThem.Text == "" || txtTenThem.Text == "" || txtDonGiaThem.Text == "" || txtSoLuongThem.Text == "")
+            {
+                MessageBox.Show("Bạn chưa nhập đủ dữ liệu!");
             }
-            //thao tac them
-            HangHoa_DTO hh = new HangHoa_DTO(id, ten, dongia, soluong);
-            HangHoa_BUS t = new HangHoa_BUS();
-            if (!t.ThemHangHoa(hh))
-                MessageBox.Show("Thêm không thành công. Vui lòng thử lại!.");
+            //lay du lieu tu form
+            else
+            {
+                id = txtIDThem.Text;
+                ten = txtTenThem.Text;
+                dongia = float.Parse(txtDonGiaThem.Text);
+                soluong = int.Parse(txtSoLuongThem.Text);
 
-            //hien thi lai form
-            dgvThem.DataSource = t.LoadHangHoa();
+                //thao tac them
+                HangHoa_DTO hh = new HangHoa_DTO(id, ten, dongia, soluong);
+                HangHoa_BUS t = new HangHoa_BUS();
+                if (!t.ThemHangHoa(hh))
+                    MessageBox.Show("Thêm không thành công. Vui lòng thử lại!.");
 
-            //hien thi lai tab ds
-            dgvDS.DataSource = t.LoadHangHoa();
-            //hien thi lai tab xoa
-            dgvXoa.DataSource = t.LoadHangHoa();
-            bingdingXoa();
-            //hien thi lai tab sua
-            dgvSua.DataSource = t.LoadHangHoa();
-            bingdingSua();
-            //them vao bao cao chi
-            DateTime ngay = DateTime.Now.Date;
-            Baocaochi_DTO bc = new Baocaochi_DTO(ngay, "Hang hoa", float.Parse(txtDonGiaThem.Text) * int.Parse(txtSoLuongThem.Text));
-            Baocaochi_BUS baocaochi = new Baocaochi_BUS();
-            baocaochi.ThemBaoCao(bc);
+                //hien thi lai form
+                dgvThem.DataSource = t.LoadHangHoa();
+
+                //hien thi lai tab ds
+                dgvDS.DataSource = t.LoadHangHoa();
+                //hien thi lai tab xoa
+                dgvXoa.DataSource = t.LoadHangHoa();
+                bingdingXoa();
+                //hien thi lai tab sua
+                dgvSua.DataSource = t.LoadHangHoa();
+                bingdingSua();
+                //them vao bao cao chi
+                DateTime ngay = DateTime.Now.Date;
+                Baocaochi_DTO bc = new Baocaochi_DTO(ngay, "Hang hoa", float.Parse(txtDonGiaThem.Text) * int.Parse(txtSoLuongThem.Text));
+                Baocaochi_BUS baocaochi = new Baocaochi_BUS();
+                baocaochi.ThemBaoCao(bc);
+            }
         }
 
         private void btnXoa_Click(object sender, EventArgs e)

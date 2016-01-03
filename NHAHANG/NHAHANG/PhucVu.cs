@@ -110,7 +110,6 @@ namespace NHAHANG
             if (txtSoLuong.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập số lượng!");
-                return;
             }
             //Them mon vao cthd
             CTHD_DTO cthd = new CTHD_DTO(int.Parse(lbMHD.Text), lbMon.Text, float.Parse(lbDonGia.Text), int.Parse(txtSoLuong.Text));
