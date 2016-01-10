@@ -71,8 +71,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
             this.labelChao = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDS)).BeginInit();
@@ -106,7 +106,7 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dgvDS);
-            this.tabPage1.ForeColor = System.Drawing.Color.White;
+            this.tabPage1.ForeColor = System.Drawing.Color.Black;
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -522,6 +522,16 @@
             this.panel1.Size = new System.Drawing.Size(1006, 45);
             this.panel1.TabIndex = 1;
             // 
+            // labelChao
+            // 
+            this.labelChao.AutoSize = true;
+            this.labelChao.ForeColor = System.Drawing.Color.White;
+            this.labelChao.Location = new System.Drawing.Point(63, 20);
+            this.labelChao.Name = "labelChao";
+            this.labelChao.Size = new System.Drawing.Size(41, 13);
+            this.labelChao.TabIndex = 1;
+            this.labelChao.Text = "label14";
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -531,15 +541,6 @@
             this.label13.Size = new System.Drawing.Size(35, 13);
             this.label13.TabIndex = 0;
             this.label13.Text = "Chào!";
-            // 
-            // labelChao
-            // 
-            this.labelChao.AutoSize = true;
-            this.labelChao.Location = new System.Drawing.Point(63, 20);
-            this.labelChao.Name = "labelChao";
-            this.labelChao.Size = new System.Drawing.Size(41, 13);
-            this.labelChao.TabIndex = 1;
-            this.labelChao.Text = "label14";
             // 
             // QLHangHoa
             // 

@@ -110,28 +110,30 @@ namespace NHAHANG
             if (txtSoLuong.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập số lượng!");
-                return;
             }
             //Them mon vao cthd
-            CTHD_DTO cthd = new CTHD_DTO(int.Parse(lbMHD.Text), lbMon.Text, float.Parse(lbDonGia.Text), int.Parse(txtSoLuong.Text));
-            bool kq = CTHD_BUS.ThemCTHD(cthd);
-            if (kq == false)
-            {
-                MessageBox.Show("loi!");
-            }
             else
             {
-                dataGridView3.DataSource = CTHD_BUS.LoadCTHDTheoMHD(int.Parse(lbMHD.Text));
+                CTHD_DTO cthd = new CTHD_DTO(int.Parse(lbMHD.Text), lbMon.Text, float.Parse(lbDonGia.Text), int.Parse(txtSoLuong.Text));
+                bool kq = CTHD_BUS.ThemCTHD(cthd);
+                if (kq == false)
+                {
+                    MessageBox.Show("loi!");
+                }
+                else
+                {
+                    dataGridView3.DataSource = CTHD_BUS.LoadCTHDTheoMHD(int.Parse(lbMHD.Text));
+                }
+                //hien thi ds
+                //cap nhat tong tien
+                float tongtien = 0;
+                int dong = dataGridView3.RowCount;
+                for (int i = 0; i < dong; i++)
+                {
+                    tongtien += float.Parse(dataGridView3.Rows[i].Cells[1].Value.ToString()) * float.Parse(dataGridView3.Rows[i].Cells[2].Value.ToString());
+                }
+                txtTongTien.Text = tongtien.ToString();
             }
-            //hien thi ds
-            //cap nhat tong tien
-            float tongtien = 0;
-            int dong = dataGridView3.RowCount;
-            for (int i = 0; i < dong; i++)
-            {
-                tongtien += float.Parse(dataGridView3.Rows[i].Cells[1].Value.ToString()) * float.Parse(dataGridView3.Rows[i].Cells[2].Value.ToString());
-            }
-            txtTongTien.Text = tongtien.ToString();
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)

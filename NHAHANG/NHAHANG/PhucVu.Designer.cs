@@ -398,6 +398,7 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.dataGridView3);
+            this.groupBox6.ForeColor = System.Drawing.Color.Black;
             this.groupBox6.Location = new System.Drawing.Point(6, 19);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(330, 509);
